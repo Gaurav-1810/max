@@ -1,0 +1,148 @@
+*
+{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 50px;
+    padding: 50px 50px;
+    background-color:gray;
+   
+}
+
+.main a{
+    padding: 18px;
+    text-decoration: none;
+    color: azure;
+    
+}
+   
+.container{
+    width: 100%;
+    height: 50px;
+    padding: 0px 50px;
+   
+   
+   
+}
+
+.container a{
+    padding: 60px;
+    text-decoration: none;
+    color: black;
+    background-color: yellow;
+    
+}
+ 
+h2{
+    text-align: center;
+}
+
+#color{
+    font-size: 19px;
+    text-decoration: none;
+    
+}
+
+
+.wow{
+    text-align: center;
+    width: 1000px;
+    font-size: 20px;
+   
+}
+.wow a{
+  text-decoration: none;
+  color:#007185;
+}
+  p{
+    font-size: larger;
+  }
+  p a{
+    text-decoration: none;
+    color:#007185 ;
+  }
+  .wwe{
+    text-decoration: none;
+  }
+.light{
+  border: 1px solid black;
+  background-color: beige;
+}
+  .light div{
+    display: inline-block;
+    width: 20px 40px;
+    margin: 0px 45px;
+    background-color: beige;
+
+   
+
+    
+  }
+  .light div p{
+  text-decoration: none;
+   color:gray;
+  }
+
+  .mehra ol li a{
+    text-decoration: none;
+    color:#007185;              
+  }
+
+  
+  .way ol li a{
+    text-decoration: none;
+    color: #007185 ;
+  }
+
+  .add ol li a{
+    text-decoration: none;
+    color: #007185 ;
+  }
+
+  .do ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  .nice ol li a{
+    text-decoration: none;
+    color: #007185;
+  }
+  .jack ol li a{
+    text-decoration: none;
+    color: #007185;
+  }
+  input[type="checkbox"]{
+    transform: scale(1.5);
+    margin: 10px;
+
+  }
+  .ppt ol li a{
+    text-decoration: none;
+    color: #007185;
+  }
+
+  #active{
+    text-align: center;
+  }
+  .mehra .day{
+     font: larger;
+    color: black;
+    width: 350px;
+    margin: 0px 0px 0px 200px;
+    text-decoration: none;
+  }
+
+  .day p{
+    text-decoration: none;
+  }
+
+  .active{
+  text-align: center;
+  width: 100px;
+  }
+
+  #rose{
+    text-align:justify;
+  }
