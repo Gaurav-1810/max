@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <style>
+
+    header{
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        
+    }
+    .slow{
+        width: 200PX;
+        height: 200PX;
+        border: 10px dashed black;
+        border-color: aqua black red yellow;
+        border-radius: 50%;
+        animation-name: gaurav;
+        animation-duration: 7s;
+        animation-timing-function: linear;
+        animation-iteration-count: 5;
+    }
+      .fast{
+        width: 200PX;
+        height: 200PX;
+        border: 10px dashed black;
+        border-color: aqua black red yellow;
+        border-radius: 50%;
+        animation-name:gaurav ;
+        animation-duration: 3s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+      }  
+    @keyframes gaurav{
+        0%{
+            transform: rotate(0deg);
+        }
+
+
+            25%{
+                tranform:rotate(90deg);
+            }
+
+            50%{
+                transform: rotate(180deg);
+            }
+            
+            100%{
+            transform: rotate(360deg);
+        }
+    }
+        
+        
+       h1{
+        color: black;
+       } 
+   </style>
+    
+</head>
+<body>
+    <header>
+        <h1>How Internet Loader Work</h1>
+        <div class="slow"></div>
+        <div class="fast"></div>
+        <div class="small"></div>
+        <div class="big"></div>
+    </header>
+</body>
+</html>
+
+
+
+        
+       

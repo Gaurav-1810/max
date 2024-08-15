@@ -16,6 +16,7 @@
     align-items: center;
     flex-direction: row;
     justify-content:space-evenly;
+    background-color:gray;
 
 }
 
@@ -40,7 +41,7 @@
     align-items: center;
     justify-content:left;
     flex-direction: row;
-   
+   background-color: aquamarine;
 
 }
 
@@ -59,11 +60,13 @@
 
 h1{
     text-align: center;
+    background-color: bisque;
 }
 
 h4{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    text-align: center;
+   background-color: bisque;
 }
 
 
@@ -102,8 +105,64 @@ h4 a:hover{
     text-decoration: none;
 }
 
+#top{
+    margin-top: 0%; 
+}
 #love{
+    
+   
+    
+    text-align: center;
+}
+ 
+.li ol li a{
+    text-decoration: none;
+    color: black;
+   
+
+
+}
+.li ol li a:hover{
+    color: cadetblue;
+
+}
+
+.way a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+}
+
+.way a:hover{
+    color: #007185;
+}
+h2{
+   align-items: center;
+   height: 100px;
+}
+
+.class {
     display: flex;
-    border: 2px solid black;
-    margin: 0px 200px 0px 400px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+    .li{
+        margin-top: 0px;
+    }
+  
+
+.add a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+.add a:hover{
+    color: #007185;
+}
+
+.way{display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
 }
